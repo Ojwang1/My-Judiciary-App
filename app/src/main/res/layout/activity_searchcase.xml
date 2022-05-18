@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="#FD0356"
+        android:id="@+id/txtViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH A CASE PAGE" />
+
+    <EditText
+        android:paddingTop="20sp"
+        android:paddingBottom="20sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/editSearchCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Case No:"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/mBtnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:text="Search" />
+
+</LinearLayout>

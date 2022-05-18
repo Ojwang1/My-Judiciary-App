@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_4"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#F3F5F6"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#FBFBFB"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#FAFBF9"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#FCFEFF"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#FDFDFC"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFC9C9"/>
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CasedetailsActivity">
+
+    <TextView
+        android:textColor="#0661FF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/txtViewdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CASE DETAILS PAGE" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#041DFB"
+        android:textColor="#0455FF"
+        android:ems="10"
+        android:hint="Enter Person Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#053BFD"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#034DFD"
+        android:ems="10"
+        android:hint="Enter your phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#0513F8"
+        android:ems="10"
+        android:hint="Enter your ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#0538FB"
+        android:ems="10"
+        android:hint="Enter your case no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editAssig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#0339FA"
+        android:ems="10"
+        android:hint="Assign Judge"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#1006FD"
+        android:ems="10"
+        android:hint="Enter Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editRuling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#052FF4"
+        android:ems="10"
+        android:hint="Enter Ruling date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTypeofCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#0728FD"
+        android:ems="10"
+        android:hint="Enter Type of Case"
+        android:inputType="textPersonName" />
+</LinearLayout>

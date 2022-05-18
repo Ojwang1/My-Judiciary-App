@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_4"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="#7DF405"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/mTvAddClerk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judiciary Dashboard" />
+
+     // This LinearaLayout has been added for each button.
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/mBtnAdd"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="#E6EAED"
+            android:layout_weight="1"
+            android:hint="Add case" />
+
+        <Button
+            android:id="@+id/mBtnViewCases"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="#E6EAED"
+            android:layout_weight="1"
+            android:hint="View case" />
+    </LinearLayout>
+    // In each of every 2 button put them in their own layout.
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mBtnAddClerk"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:hint="Add Clerk"
+            android:textColorHint="#E6EAED"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mBtnViewClerk"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="#E6EAED"
+            android:layout_weight="1"
+            android:hint="View Clerk" />
+    </LinearLayout>
+    // In each of every 2 button put them in their own layout.
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mBtnAddJudge"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="#E6EAED"
+            android:layout_weight="1"
+            android:hint="Add Judge" />
+
+        <Button
+            android:id="@+id/mBtnViewJudge"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHint="#E6EAED"
+            android:layout_weight="1"
+            android:hint="View Judge" />
+        </LinearLayout>
+    // In each of every 2 button put them in their own layout.
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/mBtnAddCourt"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="15dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColorHint="#E6EAED"
+            android:layout_weight="1"
+            android:hint="Add Courts" />
+
+                <Button
+                    android:id="@+id/mBtnViewCourt"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="15dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColorHint="#E6EAED"
+                    android:layout_weight="1"
+                    android:hint="View Courts" />
+
+</LinearLayout>
+
+
+
+</LinearLayout>

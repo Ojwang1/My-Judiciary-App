@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "967569333291",
+    "project_id": "my-judiciary-app",
+    "storage_bucket": "my-judiciary-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967569333291:android:caa19a586b58fdf7a11e6e",
+        "android_client_info": {
+          "package_name": "com.example.myjudiciaryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967569333291-ls9go2188p6ub5mjrduhe9479ncges5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnoOVB9l1mpFbekadXZADBYxZ5SJ513fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967569333291-ls9go2188p6ub5mjrduhe9479ncges5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

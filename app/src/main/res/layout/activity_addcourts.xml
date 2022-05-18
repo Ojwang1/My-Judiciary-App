@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCourtsActivity">
+
+    <TextView
+        android:textColor="#2EF660"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="30dp"
+        android:id="@+id/txtViewCourts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COURTS PAGE" />
+
+    <EditText
+        android:id="@+id/editCourtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#FF065B"
+        android:ems="10"
+        android:hint="Enter Court name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editCourtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#FF065B"
+        android:ems="10"
+        android:hint="Enter court location"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editRoomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#FF065B"
+        android:ems="10"
+        android:hint="Enter Room no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#FF065B"
+        android:ems="10"
+        android:hint="Enter Ruling Date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColorHint="#FF065B"
+        android:ems="10"
+        android:hint="Enter Ruling Time"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/mBtnRegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER" />
+</LinearLayout>

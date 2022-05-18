@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_4"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#F5F7F8"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtCourtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#FCFEFF"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtCourtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#F7F8FA"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtCourtRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#FAFAFA"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtRulingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:textColor="#F6F9FA"
+        android:textSize="30sp"
+        android:paddingLeft="30dp"
+        android:id="@+id/txtRulingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFC9C9"/>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/img_4"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingLeft="20sp"
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:hint="Enter yor name"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:paddingLeft="20sp"
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:hint="Enter your email"
+        android:shadowColor="#07F9F9FB"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:paddingLeft="20sp"
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:hint="Enter your Phone no"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:paddingLeft="20sp"
+        android:id="@+id/tvIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_weight="1"
+        android:hint="Enter your ID "
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:paddingLeft="20sp"
+        android:id="@+id/tvCaseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:hint="Enter your ID "
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFC9C9"/>
+
+
+
+</LinearLayout>
